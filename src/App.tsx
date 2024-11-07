@@ -1,10 +1,13 @@
-import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert";
+import ButtonBoot from "./components/ButtonBoot";
 
 function App() {
-  let items = ["New York", "San Fransisco", "Tokyo", "London", "Dhka"];
   return (
     <div>
-      <ListGroup items={items} heading="Cities" />
+      <Alert>
+        Hi <span>Test</span>
+      </Alert>
+      <ButtonBoot />
     </div>
   );
 }
